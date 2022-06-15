@@ -1,6 +1,8 @@
 [![.github/workflows/actions.yaml](https://github.com/kristiania-pg6301-2022/pgr6301-exam-mariestigen/actions/workflows/actions.yaml/badge.svg)](https://github.com/kristiania-pg6301-2022/pgr6301-exam-mariestigen/actions/workflows/actions.yaml) <-- den er grønn, det er bare minutes som har gått ut. [Actions](https://github.com/kristiania-pg6301-2022/pgr6301-exam-mariestigen/actions)
 
-# PG6301 eksamen <tittel på løsningen>
+# PG6301 eksamen
+
+Grade: A
 
 [Heroku](https://pg6301-exam-1170.herokuapp.com/) - 
 [Test rapport](https://github.com/kristiania-pg6301-2022/pgr6301-exam-mariestigen/commit/0001a3000204510f3c1675ebfba20228e00824a1) - 
