@@ -1,0 +1,498 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsPage component shows error screen 1`] = `
+<div>
+  <div
+    class="side-bar-container secondary-background"
+  >
+    <form>
+      <label>
+        Categories:
+        <select
+          id="categories"
+          name="categories"
+        >
+          <option
+            value=""
+          >
+            All
+          </option>
+          <option
+            value="corona"
+          >
+            corona
+          </option>
+          <option
+            value="culture"
+          >
+            culture
+          </option>
+          <option
+            value="debate"
+          >
+            debate
+          </option>
+          <option
+            value="economy"
+          >
+            economy
+          </option>
+          <option
+            value="education"
+          >
+            education
+          </option>
+          <option
+            value="international"
+          >
+            international
+          </option>
+          <option
+            value="local"
+          >
+            local
+          </option>
+          <option
+            value="nature"
+          >
+            nature
+          </option>
+          <option
+            value="politics"
+          >
+            politics
+          </option>
+          <option
+            value="sport"
+          >
+            sport
+          </option>
+          <option
+            value="weather"
+          >
+            weather
+          </option>
+        </select>
+      </label>
+      <button>
+        Filter
+      </button>
+    </form>
+  </div>
+  <div
+    class="window-content-container"
+  >
+    <div>
+      <h2>
+        ERROR
+      </h2>
+      <h3>
+        Something went wrong
+      </h3>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NewsPage component shows loading screen 1`] = `
+<div>
+  <div
+    class="side-bar-container secondary-background"
+  >
+    <form>
+      <label>
+        Categories:
+        <select
+          id="categories"
+          name="categories"
+        >
+          <option
+            value=""
+          >
+            All
+          </option>
+          <option
+            value="corona"
+          >
+            corona
+          </option>
+          <option
+            value="culture"
+          >
+            culture
+          </option>
+          <option
+            value="debate"
+          >
+            debate
+          </option>
+          <option
+            value="economy"
+          >
+            economy
+          </option>
+          <option
+            value="education"
+          >
+            education
+          </option>
+          <option
+            value="international"
+          >
+            international
+          </option>
+          <option
+            value="local"
+          >
+            local
+          </option>
+          <option
+            value="nature"
+          >
+            nature
+          </option>
+          <option
+            value="politics"
+          >
+            politics
+          </option>
+          <option
+            value="sport"
+          >
+            sport
+          </option>
+          <option
+            value="weather"
+          >
+            weather
+          </option>
+        </select>
+      </label>
+      <button>
+        Filter
+      </button>
+    </form>
+  </div>
+  <div
+    class="window-content-container"
+  >
+    <div>
+      <h2>
+        Loading...
+      </h2>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NewsPage component shows news 1`] = `
+<div>
+  <div
+    class="side-bar-container secondary-background"
+  >
+    <form>
+      <label>
+        Categories:
+        <select
+          id="categories"
+          name="categories"
+        >
+          <option
+            value=""
+          >
+            All
+          </option>
+          <option
+            value="corona"
+          >
+            corona
+          </option>
+          <option
+            value="culture"
+          >
+            culture
+          </option>
+          <option
+            value="debate"
+          >
+            debate
+          </option>
+          <option
+            value="economy"
+          >
+            economy
+          </option>
+          <option
+            value="education"
+          >
+            education
+          </option>
+          <option
+            value="international"
+          >
+            international
+          </option>
+          <option
+            value="local"
+          >
+            local
+          </option>
+          <option
+            value="nature"
+          >
+            nature
+          </option>
+          <option
+            value="politics"
+          >
+            politics
+          </option>
+          <option
+            value="sport"
+          >
+            sport
+          </option>
+          <option
+            value="weather"
+          >
+            weather
+          </option>
+        </select>
+      </label>
+      <button>
+        Filter
+      </button>
+    </form>
+  </div>
+  <div
+    class="window-content-container"
+  >
+    <div
+      class="flex-container"
+    >
+      <a
+        href="/article?title=testArticle0"
+      >
+        <div
+          class="compact-news-card card flex-item"
+        >
+          <img
+            alt="image for news testArticle0"
+            class="img-adapt"
+            src="url0"
+          />
+          <div
+            class="padding-10"
+          >
+            <h1>
+              testArticle0
+            </h1>
+            <h4>
+              Student0
+            </h4>
+            <div
+              class="flex-container tag-container"
+            >
+              <div
+                class="category tag flex-item primary-background"
+              >
+                test0
+              </div>
+              <div
+                class="category tag flex-item primary-background"
+              >
+                data0
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a
+        href="/article?title=testArticle1"
+      >
+        <div
+          class="compact-news-card card flex-item"
+        >
+          <img
+            alt="image for news testArticle1"
+            class="img-adapt"
+            src="url1"
+          />
+          <div
+            class="padding-10"
+          >
+            <h1>
+              testArticle1
+            </h1>
+            <h4>
+              Student1
+            </h4>
+            <div
+              class="flex-container tag-container"
+            >
+              <div
+                class="category tag flex-item primary-background"
+              >
+                test1
+              </div>
+              <div
+                class="category tag flex-item primary-background"
+              >
+                data1
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a
+        href="/article?title=testArticle2"
+      >
+        <div
+          class="compact-news-card card flex-item"
+        >
+          <img
+            alt="image for news testArticle2"
+            class="img-adapt"
+            src="url2"
+          />
+          <div
+            class="padding-10"
+          >
+            <h1>
+              testArticle2
+            </h1>
+            <h4>
+              Student2
+            </h4>
+            <div
+              class="flex-container tag-container"
+            >
+              <div
+                class="category tag flex-item primary-background"
+              >
+                test2
+              </div>
+              <div
+                class="category tag flex-item primary-background"
+              >
+                data2
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a
+        href="/article?title=testArticle3"
+      >
+        <div
+          class="compact-news-card card flex-item"
+        >
+          <img
+            alt="image for news testArticle3"
+            class="img-adapt"
+            src="url3"
+          />
+          <div
+            class="padding-10"
+          >
+            <h1>
+              testArticle3
+            </h1>
+            <h4>
+              Student3
+            </h4>
+            <div
+              class="flex-container tag-container"
+            >
+              <div
+                class="category tag flex-item primary-background"
+              >
+                weather
+              </div>
+              <div
+                class="category tag flex-item primary-background"
+              >
+                data3
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a
+        href="/article?title=testArticle4"
+      >
+        <div
+          class="compact-news-card card flex-item"
+        >
+          <img
+            alt="image for news testArticle4"
+            class="img-adapt"
+            src="url4"
+          />
+          <div
+            class="padding-10"
+          >
+            <h1>
+              testArticle4
+            </h1>
+            <h4>
+              Student4
+            </h4>
+            <div
+              class="flex-container tag-container"
+            >
+              <div
+                class="category tag flex-item primary-background"
+              >
+                test4
+              </div>
+              <div
+                class="category tag flex-item primary-background"
+              >
+                weather
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a
+        href="/article?title=testArticle5"
+      >
+        <div
+          class="compact-news-card card flex-item"
+        >
+          <img
+            alt="image for news testArticle5"
+            class="img-adapt"
+            src="url5"
+          />
+          <div
+            class="padding-10"
+          >
+            <h1>
+              testArticle5
+            </h1>
+            <h4>
+              Student5
+            </h4>
+            <div
+              class="flex-container tag-container"
+            >
+              <div
+                class="category tag flex-item primary-background"
+              >
+                test5
+              </div>
+              <div
+                class="category tag flex-item primary-background"
+              >
+                data5
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;

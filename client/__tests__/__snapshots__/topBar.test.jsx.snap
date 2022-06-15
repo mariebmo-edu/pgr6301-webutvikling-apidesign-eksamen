@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`top bar component handles admins 1`] = `
+<div>
+  <div
+    class="top-bar-container primary-background"
+  >
+    <div
+      class="top-bar-content-container"
+    >
+      <a
+        class="not-link-link"
+        href="/"
+      >
+        <h1>
+          IMPORTANT NEWS PAGE
+        </h1>
+      </a>
+      <div
+        class="logged-in-container"
+      >
+        <a
+          class="nav-button"
+          href="/"
+        >
+          Back
+        </a>
+        <div
+          class="nav-bar-title"
+        >
+          <a
+            class="nav-button"
+            href="/profile"
+          >
+            test user 2
+          </a>
+          <a
+            class="nav-button"
+            href="/login/endsession"
+            id="log-out-btn"
+          >
+            Log out
+          </a>
+          <a
+            class="nav-button"
+            href="/new"
+          >
+            New Article
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`top bar component handles others 1`] = `
+<div>
+  <div
+    class="top-bar-container primary-background"
+  >
+    <div
+      class="top-bar-content-container"
+    >
+      <a
+        class="not-link-link"
+        href="/"
+      >
+        <h1>
+          IMPORTANT NEWS PAGE
+        </h1>
+      </a>
+      <div
+        class="logged-in-container"
+      >
+        <a
+          class="nav-button"
+          href="/"
+        >
+          Back
+        </a>
+        <a
+          class="nav-button"
+          href="/login"
+        >
+          Log in
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`top bar component handles users 1`] = `
+<div>
+  <div
+    class="top-bar-container primary-background"
+  >
+    <div
+      class="top-bar-content-container"
+    >
+      <a
+        class="not-link-link"
+        href="/"
+      >
+        <h1>
+          IMPORTANT NEWS PAGE
+        </h1>
+      </a>
+      <div
+        class="logged-in-container"
+      >
+        <a
+          class="nav-button"
+          href="/"
+        >
+          Back
+        </a>
+        <div
+          class="nav-bar-title"
+        >
+          <a
+            class="nav-button"
+            href="/profile"
+          >
+            test user
+          </a>
+          <a
+            class="nav-button"
+            href="/login/endsession"
+            id="log-out-btn"
+          >
+            Log out
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

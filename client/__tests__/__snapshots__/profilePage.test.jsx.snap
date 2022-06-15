@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile page component shows logged in google-user 1`] = `
+<div>
+  <h1>
+    test user
+  </h1>
+  <h2>
+    User
+  </h2>
+  <img
+    alt="profile picture of test user"
+    src="/img/img"
+  />
+  <p>
+    Email: 
+    test@user.com
+  </p>
+</div>
+`;
+
+exports[`Profile page component shows logged in microsoft-user 1`] = `
+<div>
+  <h1>
+    test user 2
+  </h1>
+  <h2>
+    Admin
+  </h2>
+  <img
+    alt="profile picture of test user 2"
+    src="https://www.itdp.org/wp-content/uploads/2021/06/avatar-man-icon-profile-placeholder-260nw-1229859850-e1623694994111.jpg"
+  />
+  <p>
+    Email: 
+    test@user.com
+  </p>
+</div>
+`;
+
+exports[`Profile page component shows not logged in 1`] = `
+<div>
+  <div>
+    <h2>
+      ERROR
+    </h2>
+    <h3>
+      Your profile is not recognized. Have you logged in?
+    </h3>
+  </div>
+</div>
+`;

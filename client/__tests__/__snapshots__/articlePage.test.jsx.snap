@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticlePage component shows article 1`] = `
+<div>
+  <div
+    class="window-content-container"
+  >
+    <img
+      alt="header image of article"
+      src="url0"
+    />
+    <h1>
+      testArticle0
+    </h1>
+    <p>
+      this is the content
+    </p>
+  </div>
+</div>
+`;
+
+exports[`ArticlePage component shows error screen 1`] = `
+<div>
+  <div
+    class="side-bar-container secondary-background"
+  >
+    <form>
+      <label>
+        Categories:
+        <select
+          id="categories"
+          name="categories"
+        >
+          <option
+            value=""
+          >
+            All
+          </option>
+          <option
+            value="corona"
+          >
+            corona
+          </option>
+          <option
+            value="culture"
+          >
+            culture
+          </option>
+          <option
+            value="debate"
+          >
+            debate
+          </option>
+          <option
+            value="economy"
+          >
+            economy
+          </option>
+          <option
+            value="education"
+          >
+            education
+          </option>
+          <option
+            value="international"
+          >
+            international
+          </option>
+          <option
+            value="local"
+          >
+            local
+          </option>
+          <option
+            value="nature"
+          >
+            nature
+          </option>
+          <option
+            value="politics"
+          >
+            politics
+          </option>
+          <option
+            value="sport"
+          >
+            sport
+          </option>
+          <option
+            value="weather"
+          >
+            weather
+          </option>
+        </select>
+      </label>
+      <button>
+        Filter
+      </button>
+    </form>
+  </div>
+  <div
+    class="window-content-container"
+  >
+    <div>
+      <h2>
+        ERROR
+      </h2>
+      <h3>
+        listNews is not a function
+      </h3>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ArticlePage component shows loading screen 1`] = `
+<div>
+  <div>
+    <h2>
+      Loading...
+    </h2>
+  </div>
+</div>
+`;

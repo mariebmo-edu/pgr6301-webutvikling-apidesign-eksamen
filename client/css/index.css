@@ -1,0 +1,120 @@
+html body{
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+
+.top-bar-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.top-bar-content-container{
+    padding-left: 20px;
+}
+
+.side-bar-container{
+    position: absolute;
+    width: 15rem;
+    height: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.nav-button{
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.window-content-container{
+    padding: 5rem;
+    margin-left: 17rem;
+    width: 72rem;
+}
+
+.compact-news-card{
+    min-width: 250px;
+    max-width: 350px;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.card {
+    box-shadow: 10px 10px 0px -3px rgba(0, 0, 0, 0.37);
+}
+.padding-10{
+    padding: 10px;
+}
+
+.img-adapt{
+    width: 100%;
+}
+
+.flex-item{
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%
+}
+
+.tag-container{
+
+}
+
+.tag{
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    margin: 1px;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+/*COLORS*/
+
+.primary-background{
+    background-color: #06726f;
+    color: white;
+}
+
+.secondary-background{
+    background-color: #ffa494;
+}
+
+.tertiary-background{
+    background-color: aquamarine;
+}
+
+.not-link-link{
+    color: black;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.login-button{
+    display: flex;
+    height: 100px;
+    width: 400px;
+    border: none;
+    border-radius: 20px;
+}
+
+.login-button-text{
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button-image{
+    height: 60%;
+    padding: 20px;
+}
